@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "prolog:build:production"
+              "browserTarget": "prolog:build:production"
             },
             "development": {
-              "buildTarget": "prolog:build:development"
+              "browserTarget": "prolog:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "prolog:build"
+            "browserTarget": "prolog:build"
           }
         },
         "test": {
